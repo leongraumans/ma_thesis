@@ -30,12 +30,12 @@
 - [OffensEval Task A](https://competitions.codalab.org/competitions/20011)
 - [HatEval English Task A](https://competitions.codalab.org/competitions/19935)
 
-## Abstract
+### Abstract
 In this work, we present a way to automatically detect abusive language in online user content. We create polarized word embeddings from controversial social media data to better model phenomena like offensive language, hate speech and other forms of abusive language. We compare these polarized embedding representations towards more standard generic embeddings, which are in principle a representative of the English language.
 
 Two machine learning models are used to measure the contribution of our polarized word embeddings to the detection of abusive language. We found that the polarized Reddit embeddings, created with the FastText algorithm, proved superior to the other source-driven representations. When applied in a bidirectional LSTM model, our polarized embeddings outperformed the pre-trained generic embeddings, even when used across multiple data sets.
 
-
+### Acknowledgements
 *Most of these scripts for classification are re-used and modified, original versions from:*
 
 - [Nissim et al, GermEval](https://github.com/malvinanissim/germeval-rug)
