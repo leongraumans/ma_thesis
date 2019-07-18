@@ -31,6 +31,8 @@
 - [HatEval English Task A](https://competitions.codalab.org/competitions/19935)
 
 ### Abstract
+Anytime one engages online, there is always a serious risk that he or she may be the target of toxic and abusive speech. To combat such behaviour, many internet companies have terms of services on these platforms that typically forbid hateful and harassing speech. However, the increasing volume of online data requires that ways are found to classify online content automatically. 
+
 In this work, we present a way to automatically detect abusive language in online user content. We create polarized word embeddings from controversial social media data to better model phenomena like offensive language, hate speech and other forms of abusive language. We compare these polarized embedding representations towards more standard generic embeddings, which are in principle a representative of the English language.
 
 Two machine learning models are used to measure the contribution of our polarized word embeddings to the detection of abusive language. We found that the polarized Reddit embeddings, created with the FastText algorithm, proved superior to the other source-driven representations. When applied in a bidirectional LSTM model, our polarized embeddings outperformed the pre-trained generic embeddings, even when used across multiple data sets.
