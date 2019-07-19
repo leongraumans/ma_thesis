@@ -42,4 +42,4 @@ Two machine learning models are used to measure the contribution of our polarize
 
 - [Nissim et al, GermEval](https://github.com/malvinanissim/germeval-rug)
 - [Balint Hompot, OffensEval](https://github.com/BalintHompot/RUG_Offenseval)
-- [Grunn2019 at SemEval 2019 Task 5](https://bitbucket.org/grunn2018/sharedhate_repo/src/master/)
+- [Grunn2019 at SemEval 2019 Task 5](https://bitbucket.org/grunn2018/sharedhate_repo)
